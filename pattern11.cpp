@@ -3,15 +3,17 @@
  int main(){
 int n;
 cin>>n;
-int i=0;
-
+int i=1;
+char ch ='A';
 while(i<=n){
 int j=1;
 
-while(j<=i){
-    cout<<i-j+1;
+while(j<=n){
+    ch='A'+j-1;
+    cout<<ch;
     
     j=j+1;
+
 
 }
 cout<<endl;
